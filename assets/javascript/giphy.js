@@ -66,7 +66,7 @@ $(document).ready(function(){
 			"api_key": "50fcc85a481a4571beac4ac39a389a47"
 		}
 		$.ajax({
-			url: "http://api.giphy.com/v1/gifs/search?",
+			url: "https://api.giphy.com/v1/gifs/search?",
 			data: gifData,
 			method: "GET",
 		}).done(function(response){
